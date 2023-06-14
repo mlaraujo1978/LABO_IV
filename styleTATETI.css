@@ -1,0 +1,187 @@
+  @media screen and (max-width: 400px) { }
+  /*me restó armarlo en formato responsive*/
+
+body{
+  display: flex;
+  justify-content: center;
+  max-width:850px;
+  margin-top:15px;
+  background-color: beige;
+  }
+
+  
+  .containerTaTeTi{
+    background-image: url(fondo.png);
+    max-width: 350px;
+    margin-left: 10px;
+    padding:1em 3em 1em;
+    max-height: 700px;
+    width:50%;   
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px; 
+    border: 3px solid gray; 
+    /*overflow:scroll;*/
+  }
+
+
+  header{
+    margin:auto;
+    text-align:center;      
+  }
+
+  .gameName{
+    margin: auto;
+    text-align:center;
+    font-family: Verdana;
+    font-size: xx-large;
+    color:hsl(251, 85%, 5%);
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  
+  .player{
+    width:225px;
+    height:26px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-size:small;
+    font-weight: bold;
+    text-align:center;
+    text-transform:uppercase;  
+  }
+
+
+  .player#player1Name{
+    background-color:lightsteelblue;
+    font-size:medium;
+   
+  }
+
+  .player#player2Name{
+    background-color: salmon;
+    font-size:medium;
+   
+  }
+
+  p{
+    margin-bottom: 10px;
+    margin: auto;
+    font-size:small;
+    font-size:verdana;
+    padding: 5PX;
+   
+  }
+
+  .cellContainer{
+     display:grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     width:200px;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+   
+     }
+    
+  .cell{
+    background-color:mediumvioletred;
+    width: 70px;
+    height: 70px;
+    color:aliceblue;
+    font-family: 'verdana';
+    font-size: xx-large;
+    font-weight: bold;
+    border-color: black;
+    border-style:double;
+             
+  }
+
+ 
+  .menu{
+   
+    background-color:silver;
+    margin:auto;
+    width: 350px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    text-align:center;
+    font-family: cursive;
+    font-size: medium;
+    font-weight: bold;
+    justify-content: center;   
+   
+  }
+
+  #msg{
+    background-image: url(fondo.png);
+    margin: auto;
+    width: 327px;
+    height: 45px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn{
+    width: 130px;
+    height: 35px;
+    border-radius: 200px;
+    border: 3px solid;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: medium;      
+  }
+
+  .btn#startBtn{
+    background-color: hsl(152, 59%, 54%);
+    border-color: black;    
+  }
+
+   .btn#surrenderBtn{
+    background-color:lightgray;
+    color:crimson;
+  }
+
+  #minutes{
+    color:brown;
+  }
+
+  
+  #seconds{
+    color:brown;
+  }
+
+  
+  #gameRecords{
+
+    background-color:burlywood;
+    margin-right: 10px;
+    padding:15px;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    border: 3px solid grey;  
+    font-family: cursive;
+    font-weight: bold;
+    font-size:x-large;
+    color: black;
+    text-align:left;
+    /*overflow:scroll;*/
+   
+  }
+
+  #table{
+    background-image: url(fondo.png);
+    border: 3px solid grey;
+    margin-top: 10px;
+    font-size:small;
+    font-family:Calibri;
+    text-transform:uppercase; 
+    border-radius: 10px;
+      
+  }
+
+  
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'/>
+    <link rel="icon" href="logo.ico">
+      <link rel='stylesheet' href='styleTATETI.css'/>
+   
+</head>
+
+<body> 
+  
+   <div class="containerTaTeTi">
+
+      <header>
+
+      <div class="gameName">  Ta Te Ti </div>  
+      
+      <input  type="text"  id='player1Name' class="player" />
+       <p id="namePlayer1">[ Ingrese Nombre Jugador X ]</p>
+   
+      <input type="text" id='player2Name' class="player" />
+      <p id="namePlayer2">[ Ingrese Nombre Jugador O ]</p>
+
+      </header>
+ 
+      <div class='cellContainer'>
+
+        <button disabled id='0' class="cell" onclick='pressedBtn(0)'>-</button>
+        <button disabled id='1' class="cell" onclick='pressedBtn(1)'>-</button>
+        <button disabled id='2' class="cell" onclick='pressedBtn(2)'>-</button>
+        <button disabled id='3' class="cell" onclick='pressedBtn(3)'>-</button>
+        <button disabled id='4' class="cell" onclick='pressedBtn(4)'>-</button>
+        <button disabled id='5' class="cell" onclick='pressedBtn(5)'>-</button>
+        <button disabled id='6' class="cell" onclick='pressedBtn(6)'>-</button>
+        <button disabled id='7' class="cell" onclick='pressedBtn(7)'>-</button>
+        <button disabled id='8' class="cell" onclick='pressedBtn(8)'>-</button>
+           
+      </div>
+
+    <br><div class='menu'> 
+
+      <div id='msg'> </div>
+      
+      <br> <span id="minutes">TiMeR 00:</span><span id="seconds">00</span></br>    
+                 
+      <br> <input type="button"  id="startBtn"  class="btn" value="COMENZAR" onclick='start()'>
+        
+      <input disabled type="button" id="surrenderBtn" class="btn"  value="ME RINDO !"  onclick='surrenderBtn()'></br>  
+      
+     </div> 
+ 
+   </div>
+
+   <div id="gameRecords"> GaNaDoReS: <br>
+    <Table id="table"></Table>
+  
+    </div>
+
+<script src= 'mainTATETI.js'></script>
+   
+</body>
